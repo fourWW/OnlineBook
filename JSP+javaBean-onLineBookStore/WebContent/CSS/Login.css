@@ -1,0 +1,42 @@
+body{
+	background-image: url(../Image/c1.jpg);
+	position:relative;
+	font-family: "consle";
+}
+.login{
+	width:250px;
+	height:350px;
+	padding: 10px;
+	background-color: lightgray;
+	border-radius: 10px;
+	position:absolute;
+	top:80px;
+	left:150px;
+	opacity: 0.8;
+}
+
+h3{
+	text-align: center;
+	padding-bottom:10px;
+	border-bottom: white solid 1px;
+}
+.username,.password,.repassword{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left:20px;
+}
+.repassword{
+	border-bottom: white solid 1px;
+}
+.login input{
+	margin-top: 5px;
+
+}
+.btn {
+	width:250px;
+	margin:20px;
+}
+
+.btn input{
+	margin:10px;
+}

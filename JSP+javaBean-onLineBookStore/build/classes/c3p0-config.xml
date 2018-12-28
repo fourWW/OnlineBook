@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <!--默认配置-->
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql:///connection</property>
+        <property name="user">root</property>
+        <property name="password">wyq980315</property>
+        <property name="minPoolSize">15</property>
+        <property name="initialPoolSize">15</property>
+    </default-config>
+    <!--name为dbTemp2的配置-->
+    <named-config name="dbTemp2">
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql:///connection</property>
+        <property name="user">root</property>
+        <property name="password">wyq980315</property>
+        <property name="minPoolSize">15</property>
+        <property name="initialPoolSize">15</property>
+    </named-config>
+</c3p0-config>

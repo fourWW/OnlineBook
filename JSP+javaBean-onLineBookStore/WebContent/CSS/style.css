@@ -1,0 +1,118 @@
+*{
+	list-style:none;
+	text-decoration:none;
+}
+body{
+	position:relative;
+}
+.header{
+	width:100%;
+}
+.header .logo{
+	float:left;
+	width:100%;
+	height:80px;	
+	border-bottom:10px solid gray;
+	margin-left:20px;
+}
+.name{
+	position:absolute;
+	right:20px;
+	top:20px;
+	font-size:1.2em;
+	padding-right:20px;
+	padding-top:20px;
+	color:#404049;
+}
+.logo h2{
+	font-family:¡• È;
+	color:#0A0A0A;
+	font-size:2em;
+}
+.logo span{
+	margin-left:100px;
+}
+.border{
+	width:25%;
+	height:800px;
+	float:left;
+	border-right: 10px solid gray;
+}
+.border li{
+	width:80%;
+	height:100px;
+	line-height:80px;
+	padding:10px;
+	margin:10px;
+	border:2px solid gray;
+	border-radius:10px;
+	font-size:1.5em;
+	color:#636470;
+	text-align:center;
+}
+.Book{
+	height:220px;
+	margin-right:10px;
+	margin-top:30px;
+	width:32%;
+	float:right;
+	border:2px solid gray;
+	border-radius:10px;
+	text-align:center;
+	border-right: 10px solid gray;
+}
+
+.Book img{
+	margin:10px;
+	float:left;
+}
+.Book .info{
+	padding:20px;
+	width:100px;
+	float:right;
+}
+.Book img:hover{
+    opacity: 0.5;
+}
+.reach{
+	width:300px;
+	height:30px;
+}
+.reach input{
+	position:absolute;
+	width:400px;
+	height:30px;
+	border-radius:2px;
+	top:30px;
+	left:200px;
+	margin-left:50px;
+}
+.reach .sub{
+	position:absolute;
+	width:80px;
+	height:30px;
+	top:30px;
+	left:610px;
+	padding-top:5px;
+	margin-top:5px;
+}
+  .footer{
+  	position:absolute;
+  	right:0px;
+  	top:900px;
+  	width:100%;
+  	height:100px;
+  	background-color: gray;
+  	border-radius:5px; 
+  	text-align: center;
+  	line-height: 100px;
+  }
+  .index{
+ 	position:absolute;
+  	right:0px;
+  	top:880px;
+  	width:100%;
+  	height:40px;
+  	background-color: lightgray;
+  	text-align: center;
+  }
